@@ -1,0 +1,33 @@
+USE [Test_Database]
+GO
+
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Test_Excel](
+	[ID] [int] IDENTITY(1,1) NOT NULL,
+	[Date] [date] NULL,
+	[Member_ID] [varchar](max) NULL,
+	[Member_Name] [varchar](max) NULL,
+	[field1] [varchar](max) NULL,
+	[field2] [varchar](max) NULL,
+	[field3] [varchar](max) NULL,
+	[field4] [varchar](max) NULL,
+	[field5] [varchar](max) NULL,
+	[field6] [int] NULL,
+	[field7] [numeric](18, 2) NULL,
+	[field8] [numeric](18, 2) NULL,
+	[field9] [int] NULL,
+	[field10] [varchar](max) NULL,
+	[shift] [varchar](max) NULL,
+	[value11] [int] NULL,
+	[value12] [int] NULL,
+	[value13] [numeric](18, 2) NULL,
+	[Crdatetime] [smalldatetime] NULL
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+
+
