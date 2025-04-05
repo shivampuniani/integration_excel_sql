@@ -22,7 +22,6 @@ This project connects to an Excel file, retrieves data, and inserts it into a SQ
 3. Configure the database connection:
 
 Update the connection details in the config.ini file with your SQL Server credentials. Here's the format:
-   ```bash
    [database]
    server = SQLEXPRESS
    database = Test_Database
