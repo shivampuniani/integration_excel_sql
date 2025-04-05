@@ -34,15 +34,15 @@ Excel File: Ensure the path to your Excel file is correct in the main.py script.
 
 4. Run the script:
    ```bash
-   python main.py
+   python Python_EXCEL_to_SQL.py
 
 
 EXCEL-SQL-Integration-project/  
 │  
-├── main.py               # Your main Python program  
-├── requirements.txt      # Python dependencies  
-├── README.md             # Project documentation  
-├── config.ini            # config file to store and configure sql server and file data   
-├── .gitignore            # Git ignore rules  
-└── log_file.txt          # Log file (will be generated when running the program)  
+├── Python_EXCEL_to_SQL.py               # Your main Python program  
+├── requirements.txt                     # Python dependencies  
+├── README.md                            # Project documentation  
+├── config.ini                           # config file to store and configure sql server and file data   
+├── .gitignore                           # Git ignore rules  
+└── log_file.txt                         # Log file (will be generated when running the program)  
 
