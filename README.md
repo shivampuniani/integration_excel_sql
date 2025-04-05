@@ -23,10 +23,10 @@ This project connects to an Excel file, retrieves data, and inserts it into a SQ
 
 Update the connection details in the config.ini file with your SQL Server credentials. Here's the format:
    [database]
-   server = SQLEXPRESS
-   database = Test_Database
-   username = sa
-   password = 12345678
+   server = SQLEXPRESS  
+   database = Test_Database  
+   username = sa  
+   password = 12345678  
 
 Update the connection strings (if required) in main.py for both SQL Server and Excel file handling.
 SQL Server: Update the SERVER, DATABASE, UID, and PWD placeholders in the config.ini file.
